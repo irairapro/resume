@@ -3,49 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Irina-CV</title>
-    <meta name="keywords" content="skills,competencies,job,vacancy">
-    <meta name="descriptions" content="Это моё резюме">
-
-</head>
-<body>
-   <h1><strong>Ирина Шестова</strong></h1>
-   <p>Работаю на работе, в должности <strong>Арт Директор Арт пространства.</strong> </p>
-   <p><strong> <em>Учусь программировать на JS.</em></strong></p>
-   <p><em>Люблю</em> прогулки на свежем воздухе,общение с друзьями.</p>
-   <hr>
-   <img src="imege/pfoto.png" width="150" alt="здесь должно быть фото">
-   <br>
-   <h2>Мои соцсети</h2>
-   <a href="https://vk.com/shestova_irina" target="_blank">ВКонтакте</a>
-   |
-   <a href="https://web.telegram.org/k/#-1112701287" target="_blank">Телеграм</a>
-   <h1>Мое Хобби</h1>
-<ul type="circle">
-    <li>Рисование</li>
-    <li>Спорт</li>
-    <li>Кулинария</li>
-    <li>Петешествия</li>
-<table width="500">
-    <thead>
-      <tr>
-        <th>Место работы</th>
-        <th>Должность</th> 
+    <meta name="keywords" content="Irina, Irina-CV,resume">
+    <meta name="descriptions" content=" Это сайт резюме">
+    <title>New Reusme</title>
+<link rel="stylesheet" href="02_font.css">
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="info"> 
+        <img src="imege/pfoto.png" alt="Здесь должно быть фото" class="avatar">
+        <div class="info-1"> 
+        <h1>Резюме Ирины</h1>
+        <p>Работаю на работе в должности Арт Директор Арт пространства</p>
+        <p>Учусь прогараммировать. В свободное время люблю гулять на свежем воздухе </p>
+    </div>
+    </div>
+    <div class="card blue"> 
+        <h4>Мои соцсети:</h4>
+        <a href="https://vk.com/shestova_irina" target="_blank">ВКонтакте</a>
+        |
+        <a href="https://web.telegram.org/" target="_blank">Телеграм</a>
+    </div>
+    <div class="card yellow"> 
+        <h2>Мои Хобби</h2>
+    <ol class="list">
+        <li> Слушать музыку</li>
+        <li> Прогулки на свежем воздухе</li>
+        <li> Кулинария</li>
+        <li> Спорт</li>
+    </div>
+    <div class="card red"> 
+    </ol>
+    <h2>Место работы</h2>
+    <table class="table">
+        <thead> 
+    <tr>
+        <th>Название</th>
+        <th>Должность</th>
         <th>Год</th>
     </tr>
-</thead>
-<tbody> 
+    </thead>
+    <tbody> 
     <tr>
-        <td>ООО Сервис</td>
-        <td>Управляющий</td> 
-        <td>2021 сейчас</td>
-    </tr>
-    <tr>
-        <td>ООО Псервис</td>
-        <td>Зам руководителя</td> 
+        <td>П-Сервис</td>
+        <td>Пом руководителя</td>
         <td>2019-2021</td>
     </tr>
-</tbody>
-</table>
+    <tr>
+        <td>Ю-Сервис</td>
+        <td>Управляющий</td>
+        <td>2021-сейчас</td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+       
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>  
+            <div class="form-row"> 
+    <div class="form-group"> 
+        <label for="text">Ваше имя:</label>
+        <input type="text" id="text" placeholder="Введите ваше имя...">
+    </div>
+        
+    <div class="form-group"> 
+        <label for="email">Ваша почта:</label>
+        <input type="email" id="email" placeholder="Введите вашу почту...">
+    </div>
+    </div>
+        
+    <div class="form-group"> 
+        <label for="message">Ваше сообщение:</label>
+        
+        <textarea id="message" cols="30" rows="10" placeholder="Введите ваше сообщение..."></textarea>
+    </div>
+    
+    <input class="btn" type="submit" value="Отправить">
+        
+</form>
+</div>
 </body>
 </html>
